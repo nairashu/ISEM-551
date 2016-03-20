@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>NCAA Basketball</title>
+		<link rel="stylesheet" type="text/css" href="mainpage.css">
+		<script type="text/javascript" src="scorePlay.js"></script>
+	
+	</head>
+	
+	<body>		
+
+		<header id="header">
+			<div id="logo">
+				<a href="Main Screen.html"><img src="ncaaLogo.png" width="100" height="100" /></a>
+			</div>			
+			<h1>NCAA BASKETBALL</h1>
+		</header>
+
+		<nav id="nav">
+			<div class="sidebar">
+				<h2><a href="Main Screen.html">Home</a></h2>
+				<h2><a href="Schools.html">Schools</a></h2>
+				<ul>
+					<li><a href="Kansas.html">Kansas</a></li>
+					<li><a href="Indiana.html">Indiana</a></li>
+				</ul>
+				<h2><a href="Scores.html">Scores</a></h2>
+				<h2><a href="Highlights.html">Latest Highlights</a></h2>
+			</div>
+		</nav>
+
+		<main>
+			<div class="content">
+				
+				<h2>Today's Scores</h2>
+				<div class="iuscore">
+					<table>
+						<th colspan="2"><button onclick="updateIUNDScore()"> <b>Click Here to Update Live Score </b></button></th>
+						<tr>
+							<td><img src="iulogo.png" /></td>
+							<td id = "iuscorelive">0</td>
+						</tr>
+						<tr>
+							<td><img src="notredamelogo.png" /></td>
+							<td id = "ndscorelive">0</td>
+						</tr>
+					</table>
+				</div>
+				<div class="kuscore">
+					<table>
+						<th colspan="2"><button onclick="updateKUWISScore()"> <b>Click Here to Update Live Score </b></button></th>
+						<tr>
+							<td><img src="kulogo.png" /></td>
+							<td id = "kuscorelive">0</td>
+						</tr>
+						<tr>
+							<td><img src="wisconsinlogo.png" /></td>
+							<td id = "wisscorelive">0</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+		</main>	
+	</body>
+</html>
