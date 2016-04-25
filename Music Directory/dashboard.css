@@ -2,10 +2,6 @@
  * Base structure
  */
 
-/* Move down content because we have a fixed navbar that is 50px tall */
-body {
-  padding-top: 50px;
-}
 
 
 /*
@@ -107,4 +103,17 @@ body {
 .placeholder img {
   display: inline-block;
   border-radius: 50%;
+}
+
+.pickListButtons {
+  padding: 10px;
+  text-align: center;
+}
+
+.pickListButtons button {
+  margin-bottom: 5px;
+}
+
+.pickListSelect {
+  height: 200px !important;
 }
